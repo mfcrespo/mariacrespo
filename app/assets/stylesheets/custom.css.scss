@@ -1,1 +1,57 @@
 @import 'bootstrap/dist/css/bootstrap';
+
+/*
+.jumbotron {
+	background-image: asset-url('mariacrespo.svg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	background-color: black;
+}*/
+
+.portrait {
+	position: relative;
+	background-color: black;
+	background-size: cover;
+}
+
+.portrait a{
+	position: absolute;
+	bottom:4em;
+	right:4em;
+	background-color:#8F0005;
+	border-radius:1.5em;
+	color:white;
+	text-transform:uppercase;
+	padding:1em 1.5em;
+	}
+
+@media only screen and (max-width:600px) {
+
+	.portrait{
+	position: absolute;
+	display:inline-flex;
+	margin-bottom:-2em;
+	background-size: cover;
+	}
+
+	.portrait a{
+	position:absolute;
+	bottom:0em;
+	right:2em;
+	background-color:#8F0005;
+	color:white;
+	font-size:small;
+	padding:0em 1.5em;
+	text-transform:uppercase;
+	border-color:white;
+	border-radius:2em;
+	}
+}
+
+/*
+.btn {
+	margin-left: 785px;
+	font-size: 18px;
+}*/
